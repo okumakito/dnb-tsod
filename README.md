@@ -1,2 +1,3 @@
 # dnb-tsod
-Analysis of gene expression profiles of TSOD mice using the dynamical network biomarker (DNB) method
+
+This repository will provide source codes used in an unpublished work. They will be made available once the paper is accepted.
