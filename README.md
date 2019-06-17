@@ -2,7 +2,7 @@
 
 This repository will provide source codes used in the following work. They will be made available once the paper is published.
 
-* K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying Pre-disease Signals Before Metabolic Syndrome in Mice by Dynamical Network Biomarkers, to appear.
+* K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying pre-disease signals before metabolic syndrome in mice by dynamical network biomarkers, to appear.
 
 ## Requirements
 
