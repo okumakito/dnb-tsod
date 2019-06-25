@@ -1,8 +1,8 @@
 # dnb-tsod
 
-This repository will provide source codes used in the following work. They will be made available once the paper is published.
+This repository provides source codes used in the following work:
 
-* K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying pre-disease signals before metabolic syndrome in mice by dynamical network biomarkers, to appear.
+* K. Koizumi, M. Oku, S. Hayashi, A. Inujima, N. Shibahara, L. Chen, Y. Igarashi, K. Tobe, S. Saito, M. Kadowaki, and K. Aihara: Identifying pre-disease signals before metabolic syndrome in mice by dynamical network biomarkers, Scientific Reports, 9:8767 (2019). https://doi.org/10.1038/s41598-019-45119-w
 
 ## Requirements
 
