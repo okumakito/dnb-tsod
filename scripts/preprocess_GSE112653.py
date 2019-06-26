@@ -4,8 +4,9 @@ import pandas as pd
 def preprocess_GSE112653():
 
   # NOTE: the mapping relations between probe names and gene symbols
-  # were extracted from 028005_D_GeneList_20171030.txt obtained at
-  # https://earray.chem.agilent.com/earray/catalogGeneLists.do?action=displaylist, which was the latest at the momemnt of the paper submission.
+  # were extracted from 028005_D_GeneList_20171030.txt obtained at:
+  # https://earray.chem.agilent.com/earray/catalogGeneLists.do?action=displaylist
+  # It was the latest at the momemnt of the paper submission.
   data_file_name = '../data/GSE112653_series_matrix.txt'
   mapping_file_name = '../data/id_mapping.tsv' 
   output_file_name = '../data/data.tsv'
