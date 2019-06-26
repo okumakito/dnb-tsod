@@ -1,5 +1,5 @@
 def load_gene_name():
-  file_name = '../data/028005_D_GeneList_20171030.txt'
+  file_name = '../data/gene_name_list.tsv'
   df = pd.read_csv(file_name, sep='\t', usecols=['GeneSymbol','GeneName']). \
        dropna().drop_duplicates()
   return pd.Series(df['GeneName'].values, index=df['GeneSymbol'])
