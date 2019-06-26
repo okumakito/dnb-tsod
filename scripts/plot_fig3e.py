@@ -2,7 +2,7 @@ import warnings
 warnings.filterwarnings('ignore', 'This figure includes Axes that are not compatible')
 
 def plot_fig3e(pos_df, data_df):
-  cmap = 'YlOrRd' # 'RdYlGn_r', 'PiYG_r'
+  cmap = 'PiYG_r' # 'RdYlGn_r'
 
   idx = pos_df.sort_values(by='type').index
   std_df = data_df.loc[idx, 'TSOD'].groupby(axis=1,level=0).std()
