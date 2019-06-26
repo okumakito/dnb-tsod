@@ -11,7 +11,7 @@ def preprocess_GSE112653():
   mapping_file_name = '../data/id_mapping.tsv' 
   output_file_name = '../data/data.tsv'
 
-  # load expression data files ---------------------------------
+  # load expression data file ---------------------------------
 
   df = pd.read_csv(data_file_name, sep='\t', index_col=0, 
                    header=[33,69]) # '!Sample_title', 'ID_REF'
