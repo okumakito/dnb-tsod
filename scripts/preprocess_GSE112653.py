@@ -14,7 +14,7 @@ def preprocess_GSE112653():
   # load expression data file ---------------------------------
 
   df = pd.read_csv(data_file_name, sep='\t', index_col=0, 
-                   header=[33,69]) # '!Sample_title', 'ID_REF'
+                   header=[35,71]) # '!Sample_title', 'ID_REF'
   df.drop('!series_matrix_table_end', inplace=True) # => 62976 x 64
   df.index = df.index.astype(int)
 
