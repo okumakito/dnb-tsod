@@ -11,10 +11,17 @@ def preprocess_GSE112653():
   mapping_file_name = '../data/id_mapping.tsv' 
   output_file_name = '../data/data.tsv'
 
+  # find !Sample_title ----------------------------------------
+  with open(data_file_name, 'r') as f:
+    for i, line in enumerate(f):
+      if line.startswith('!Sample_title'):
+        break
+  header_lines = [i -1, i + 35] # '!Sample_title', 'ID_REF'
+
   # load expression data file ---------------------------------
 
-  df = pd.read_csv(data_file_name, sep='\t', index_col=0, 
-                   header=[35,71]) # '!Sample_title', 'ID_REF'
+  df = pd.read_csv(data_file_name, sep='\t', index_col=0,
+                   low_memory=False, header=header_lines)
   df.drop('!series_matrix_table_end', inplace=True) # => 62976 x 64
   df.index = df.index.astype(int)
 
